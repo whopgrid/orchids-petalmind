@@ -1,0 +1,158 @@
+949:    <div className="flex h-screen bg-black text-white overflow-hidden">
+951:      <div className={`${sidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 fixed md:relative inset-y-0 left-0 z-50 w-64 bg-black border-r border-white/10 transition-transform duration-300 flex flex-col`}>
+953:        <div className="p-3 border-b border-white/10">
+954:          <div className="relative">
+967:        <div className="p-3">
+978:        <div className="flex-1 overflow-y-auto p-3 space-y-2">
+979:          <div className="text-xs text-gray-500 uppercase font-medium px-3 py-2">Recent Chats</div>
+982:            <div className="text-xs text-gray-500 px-3 py-2">
+999:                <div className="truncate">{chat.title}</div>
+1006:        <div className="border-t border-white/10 p-4">
+1008:            <div className="space-y-3">
+1010:              <div className="px-3 py-3 bg-white/5 rounded-lg border border-white/10">
+1011:                <div className="flex items-start gap-3">
+1012:                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 shrink-0 mt-0.5">
+1015:                  <div className="flex-1 min-w-0">
+1016:                    <div className="text-sm font-medium text-white truncate">
+1019:                    <div className="text-xs text-gray-400 truncate mt-0.5">
+1036:            <div className="space-y-2">
+1055:      <div 
+1065:        <div className="sticky top-0 z-40 flex items-center justify-between px-4 py-3 border-b border-white/10 shrink-0 bg-black/80 backdrop-blur-md">
+1066:          <div className="flex items-center gap-2">
+1079:              <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-blue-600/10 border border-blue-500/20 rounded-full transition-all hover:bg-blue-600/20">
+1086:          <div className="flex items-center gap-2">
+1116:        <div 
+1122:            <div className="flex flex-col items-center justify-center h-full max-w-2xl mx-auto">
+1123:              <div className="text-center space-y-8 w-full">
+1127:                <div className="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto">
+1153:                  <div className="relative" ref={moreActionsRef}>
+1163:                      <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 bg-[#1a1a1a] border border-white/10 rounded-xl shadow-xl overflow-hidden min-w-[200px] z-10">
+1193:          <div className="max-w-4xl mx-auto space-y-6 w-full">
+1195:              <div key={message.id} className="w-full">
+1197:                  <div className="flex justify-end">
+1198:                    <div className="max-w-[80%]">
+1200:                        <div className="mb-1">
+1209:                        <div className="bg-[#2a2a2a] text-white rounded-2xl px-4 py-3 break-words overflow-hidden">
+1210:                          <div className="whitespace-pre-wrap break-words overflow-wrap-anywhere text-xs">{message.content}</div>
+1216:                  <div className="w-full">
+1218:                      <div className="flex items-center gap-2 mb-3">
+1226:                      <div className="w-full">
+1227:                        <div className="prose prose-invert prose-sm max-w-none">
+1232:                                <div className="overflow-x-auto my-4">
+1252:                                    <div className="relative bg-[#1a1a1a] border border-white/10 rounded-lg overflow-hidden w-full my-3">
+1253:                                      <div className="flex items-center justify-between px-4 py-2 bg-white/5 border-b border-white/10">
+1267:                                      <div className="overflow-x-auto max-w-full">
+1311:                        <div className="flex items-center gap-2 mt-3">
+1350:              <div className="flex items-center gap-2">
+1357:            <div ref={messagesEndRef} />
+1362:          <div className="px-3 sm:px-4 pb-4 pt-0 shrink-0 w-full relative">
+1363:            <div className="max-w-4xl mx-auto w-full relative">
+1380:                    <div className="py-6 overflow-y-auto max-h-[60vh] px-6">
+1381:                      <div className="flex items-center justify-between mb-6 px-2">
+1382:                        <div className="text-xs text-gray-500 uppercase font-bold tracking-[0.1em]">AI Intelligence Modes</div>
+1390:                      <div className="grid grid-cols-1 gap-2">
+1402:                            <div className={`p-2.5 rounded-xl transition-colors ${selectedMode?.id === mode.id ? 'bg-blue-500 text-white' : 'bg-white/5 text-gray-400 group-hover:text-white group-hover:bg-white/10'}`}>
+1405:                            <div className="text-left flex-1 min-w-0">
+1406:                              <div className="text-sm font-bold text-white group-hover:text-blue-400 transition-colors">{mode.name}</div>
+1407:                              <div className="text-xs text-gray-400 mt-1 leading-relaxed line-clamp-2">{mode.description}</div>
+1410:                              <div className="self-center">
+1422:              <div className="relative border-t border-white/10 pt-4">
+1425:              <div className="mb-3">
+1426:                <div className="relative inline-block">
+1444:              <div className="mb-3">
+1445:                <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600/20 border border-blue-500/30 rounded-full">
+1459:            <div className="flex items-end gap-2 sm:gap-3 w-full">
+1478:              <div className="relative flex-1 min-w-0">
+1501:              <div className="shrink-0">
+1522:          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
+1536:              <div className="p-6 border-b border-white/10 flex items-center justify-between">
+1537:                <div className="flex items-center gap-3">
+1538:                  <div className="p-2 bg-blue-500/10 rounded-lg">
+1551:              <div className="flex-1 overflow-y-auto p-6 space-y-8">
+1558:                  <div className="space-y-4">
+1559:                    <div className="flex items-center justify-between">
+1560:                      <div>
+1574:                    <div className="flex items-center justify-between">
+1575:                      <div>
+1598:                  <div className="flex items-center justify-between">
+1599:                    <div>
+1621:                  <div className="grid grid-cols-3 gap-3">
+1639:              <div className="p-6 border-t border-white/10 bg-white/5 flex gap-3">
+963:          </div>
+964:        </div>
+975:        </div>
+979:          <div className="text-xs text-gray-500 uppercase font-medium px-3 py-2">Recent Chats</div>
+984:            </div>
+999:                <div className="truncate">{chat.title}</div>
+1003:        </div>
+1014:                  </div>
+1018:                    </div>
+1021:                    </div>
+1022:                  </div>
+1023:                </div>
+1024:              </div>
+1034:            </div>
+1049:            </div>
+1051:        </div>
+1052:      </div>
+1082:              </div>
+1084:          </div>
+1112:          </div>
+1113:        </div>
+1185:                      </div>
+1187:                  </div>
+1188:                </div>
+1189:              </div>
+1190:            </div>
+1206:                        </div>
+1210:                          <div className="whitespace-pre-wrap break-words overflow-wrap-anywhere text-xs">{message.content}</div>
+1211:                        </div>
+1213:                    </div>
+1214:                  </div>
+1222:                      </div>
+1234:                                </div>
+1266:                                      </div>
+1271:                                        </div>
+1272:                                      </div>
+1310:                        </div>
+1341:                        </div>
+1342:                      </div>
+1344:                  </div>
+1346:              </div>
+1354:              </div>
+1358:          </div>
+1359:        </div>
+1382:                        <div className="text-xs text-gray-500 uppercase font-bold tracking-[0.1em]">AI Intelligence Modes</div>
+1389:                      </div>
+1404:                            </div>
+1406:                              <div className="text-sm font-bold text-white group-hover:text-blue-400 transition-colors">{mode.name}</div>
+1407:                              <div className="text-xs text-gray-400 mt-1 leading-relaxed line-clamp-2">{mode.description}</div>
+1408:                            </div>
+1412:                              </div>
+1416:                      </div>
+1417:                    </div>
+1438:                </div>
+1439:              </div>
+1454:                </div>
+1455:              </div>
+1498:              </div>
+1513:              </div>
+1514:            </div>
+1515:          </div>
+1516:          </div>
+1517:        </div>
+1540:                  </div>
+1542:                </div>
+1549:              </div>
+1563:                      </div>
+1573:                    </div>
+1578:                      </div>
+1588:                    </div>
+1589:                  </div>
+1602:                    </div>
+1612:                  </div>
+1635:                  </div>
+1637:              </div>
+1656:              </div>
+1658:          </div>
+1661:      </div>

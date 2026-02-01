@@ -1,0 +1,37 @@
+{
+  "name": "PetalMind",
+  "short_name": "PetalMind",
+  "description": "Lightning-fast AI responses with context-aware intelligence and advanced learning capabilities",
+  "start_url": "/?v=10",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "id": "/?v=10",
+  "icons": [
+    {
+      "src": "/icon-192.png?v=10",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png?v=10",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png?v=10",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png?v=10",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
