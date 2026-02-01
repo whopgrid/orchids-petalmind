@@ -1661,5 +1661,4 @@ export default function ChatPage() {
         )}
         </AnimatePresence>
     </>
-  )
 }
