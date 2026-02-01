@@ -1659,7 +1659,12 @@ export default function ChatPage() {
             </motion.div>
           </div>
         )}
-        </AnimatePresence>
-      </>
-  )
+        return (
+  <>
+    {/* your JSX above */}
+    <AnimatePresence>
+      {/* content */}
+    </AnimatePresence>
+  </>
+)
         }
